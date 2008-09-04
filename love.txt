@@ -1,0 +1,112 @@
+SENTENCE --> {SIMPLE}.
+SENTENCE --> {SIMPLE}.
+SENTENCE --> {SIMPLE}.
+SENTENCE --> {QUESTION}?
+SENTENCE --> {QUESTION}?
+SENTENCE --> {QUESTION}?
+SENTENCE --> {OPENING} {SIMPLE}.
+OPENING --> {EXCLAMATION},
+OPENING --> hey,
+OPENING --> excuse me,
+OPENING --> ahem...
+EXCLAMATION --> wow
+EXCLAMATION --> ooh
+EXCLAMATION --> ah
+SIMPLE --> I {LIKE} your {ATTRIBUTE}
+SIMPLE --> you have the {SUPERLATIVE} {ATTRIBUTE}
+SIMPLE --> you're the {SUPERLATIVE}
+SIMPLE --> you must be {ADREAMHUMANNOUN}
+SIMPLE --> I {LIKE} they way you {DOSOMETHING}
+SIMPLE --> I {LIKE} watching you {QUIETVERB}
+SIMPLE --> {PROPOSITION}
+SIMPLE --> {PROPOSITION}, if you're not {BUSY}
+QUESTION --> would you like to go to {PLACE}
+QUESTION --> how do you do it
+QUESTION --> are you {BUSY}
+QUESTION --> would you {ACTIVITY} with me
+QUESTION --> do you mind if I {QUIETVERB} here
+QUESTION --> can I carry your {HEAVYSTUFF}
+QUESTION --> can I put my {HEAVYSTUFF} here
+LETS --> let's
+LETS --> why don't we
+PROPOSITION --> {LETS} go to {PLACE}
+PROPOSITION --> {LETS} {QUIETVERB} at {QUIETPLACE}
+PROPOSITION --> {LETS} {ACTIVITY}
+
+ACTIVITY --> {QUIETVERB}
+ACTIVITY --> go to {PLACE}
+ACTIVITY --> meet at {PLACE} after school
+ACTIVITY --> meet after school
+ACTIVITY --> play {GAME}
+ACTIVITY --> go shopping
+ACTIVITY --> dance
+QUIETVERB --> sit
+QUIETVERB --> study
+QUIETVERB --> read
+DOSOMETHING --> laugh
+DOSOMETHING --> chew
+DOSOMETHING --> dance
+DOSOMETHING --> walk
+DOSOMETHING --> run
+DOSOMETHING --> wave
+DOSOMETHING --> wink
+DOSOMETHING --> smile
+DOSOMETHING --> yawn
+LIKE --> really {LIKE}
+LIKE --> like
+LIKE --> love
+
+HEAVYSTUFF --> bag
+HEAVYSTUFF --> books
+HEAVYSTUFF --> textbooks
+GAME --> go
+GAME --> twister
+GAME --> chess
+GAME --> pick up sticks
+GAME --> barrel of monkeys
+GAME --> shogi
+GAME --> LEGO
+PLACE --> the movies
+PLACE --> a party
+PLACE --> the disco
+PLACE --> the beach
+PLACE --> {QUIETPLACE}
+QUIETPLACE --> the park
+QUIETPLACE --> the library
+QUIETPLACE --> my house
+ATTRIBUTE --> eyes
+ATTRIBUTE --> smile
+ATTRIBUTE --> laugh
+ATTRIBUTE --> hands
+ATTRIBUTE --> grin
+ATTRIBUTE --> hair
+ATTRIBUTE --> {CLOTHING}
+ADREAMHUMANNOUN --> an angel
+ADREAMHUMANNOUN --> a model
+ADREAMHUMANNOUN --> a dream
+ADREAMHUMANNOUN --> a straight-A student
+ADREAMHUMANNOUN --> an athlete
+CLOTHING --> jumper
+CLOTHING --> jacket
+CLOTHING --> top
+CLOTHING --> shirt
+CLOTHING --> pants
+CLOTHING --> shoes
+CLOTHING --> {ADJ} {CLOTHING}
+
+ADJ --> cool
+ADJ --> radical
+ADJ --> nice
+ADJ --> cute
+ADJ --> beatiful
+ADJ --> great
+BUSY --> busy
+BUSY --> doing anything
+SUPERLATIVE --> coolest
+SUPERLATIVE --> cutest
+SUPERLATIVE --> most beautiful
+SUPERLATIVE --> prettiest
+SUPERLATIVE --> best
+SUPERLATIVE --> nicest
+SUPERLATIVE --> greatest
+SUPERLATIVE --> most {ADJ}

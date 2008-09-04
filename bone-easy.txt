@@ -1,0 +1,491 @@
+SENTENCE --> {SIMPLE}.
+SENTENCE --> {OPENING} {SIMPLE}.
+SENTENCE --> {COMPLICATED}.
+SENTENCE --> {COMPLICATED}.
+SENTENCE --> {QUESTION}?
+SENTENCE --> {OPENING} {QUESTION}?
+OPENING --> {EXCLAMATION},
+OPENING --> {HERNAME},
+OPENING --> {EXCLAMATION}, {HERNAME},
+OPENING --> don't take this the wrong way, but
+OPENING --> I know you get this a lot, but
+OPENING --> forgive me if this is the booze talking, but,
+OPENING --> call me a {DIRTYNOUN}, but
+OPENING --> don't be a {DIRTYNOUN}, {HERNAME},
+SIMPLE --> I have {ACTIONED} the {BODYPARTS} of many lovers
+SIMPLE --> I have never {ACTIONED} the {BODYPART} of someone like you
+SIMPLE --> you have the prettiest {PART}
+SIMPLE --> you look just like a {OBJ}
+SIMPLE --> I knew right away that {MYBODYPART} and your {PART} could be best friends
+SIMPLE --> I'd like to {ACTION} your {BODYPART}
+SIMPLE --> I saw your picture in the dictionary today...next to the word {NOUN}
+SIMPLE --> you must be Jamaican, because Jamaican {MYBODYPART} {INTRAN}
+SIMPLE --> I'll think about you when I {ACTION} {MYBODYPART} tonight
+SIMPLE --> I'm drunk
+SIMPLE --> you look like a {NOUN} I knew in {COUNTRY}
+SIMPLE --> in {COUNTRY}, you'd be {ACTIONING} with me already
+SIMPLE --> never in my {SUPERLATIVE} dreams did I think I would {PARTNERACTION} {OBJ} like you
+SIMPLE --> I'm so lonely
+SIMPLE --> if you weren't so {ADJ} you could be a {DIRTYNOUN}
+SIMPLE --> you'll do
+SIMPLE --> I was *meant* to {ACTION} your {BODYPARTS}
+SIMPLE --> I'm {ACTIONING} {MYBODYPART}
+SIMPLE --> I'm here for the {ACTIONED}  {BODYPART} convention. That is my business
+SIMPLE --> you're {DREAMCOMP} {DREAMTYPE} of {DREAMOBJ}
+SIMPLE --> you make me want to {XFEELING}
+DREAMCOMP --> like a
+DREAMCOMP --> like a
+DREAMCOMP --> like a
+DREAMCOMP --> a
+DREAMCOMP --> softer than a
+DREAMCOMP --> smoother than a
+DREAMCOMP --> more radiant than
+DREAMCOMP --> breathtaking, like a
+DREAMTYPE --> vision
+DREAMTYPE --> vision
+DREAMTYPE --> memory
+DREAMTYPE --> dream
+DREAMTYPE --> cactus
+DREAMTYPE --> moment
+DREAMTYPE --> tunnel
+DREAMTYPE --> gaping hole
+DREAMOBJ --> {DREAMNOUN}
+DREAMOBJ --> {DREAMADJ} {DREAMNOUN}
+DREAMADJ --> radiant
+DREAMADJ --> breathtaking
+DREAMADJ --> mindblowing
+DREAMADJ --> shitkicking
+DREAMADJ --> glowing
+DREAMADJ --> shining
+DREAMADJ --> neverending
+DREAMADJ --> infinite
+DREAMADJ --> stormy
+DREAMADJ --> temporary
+DREAMADJ --> heart-stopping
+DREAMADJ --> lung-crushing
+DREAMADJ --> vengeful
+DREAMNOUN --> beauty
+DREAMNOUN --> beauty
+DREAMNOUN --> beauty
+DREAMNOUN --> beauty
+DREAMNOUN --> honor
+DREAMNOUN --> happiness
+DREAMNOUN --> bliss
+DREAMNOUN --> perfection
+DREAMNOUN --> perfection
+DREAMNOUN --> confection
+DREAMNOUN --> sorrow
+DREAMNOUN --> simplicity
+DREAMNOUN --> joy
+DREAMNOUN --> ecstasy
+DREAMNOUN --> peace
+DREAMNOUN --> joy
+DREAMNOUN --> peace
+DREAMNOUN --> comfort
+DREAMNOUN --> pleasure
+DREAMNOUN --> sex
+QUESTION --> do you have a sister who isn't so {MEANADJ}
+QUESTION --> is there an airport nearby or is that just {MYBODYPART} taking off
+QUESTION --> what's a {OBJ} like you doing in a {LOCATION} like this
+QUESTION --> has anyone ever told you that {SIMPLE}
+QUESTION --> may I end this sentence by {ACTIONING} your {CREVICE}
+QUESTION --> would you like to dance, or should I go {ACTION} myself
+QUESTION --> where do those {BODYPARTS} of yours end
+QUESTION --> are you incredibly {ADJ}, or is it just that you have {DISEASE}
+QUESTION --> if I told you you had a {ADJ} {BODYPART}, would you hold it against me
+QUESTION --> do you have a name, or just {DISEASE}, {HERNAME}
+QUESTION --> if {MYBODYPART} is {ADJ}, will you {ACTION} me
+QUESTION --> could you {ACTION} my {BODYPARTS} and tell me if you think they're {MALADY}
+QUESTION --> shall we go back to my {LOCATION} and {COITUS}
+COMPLICATED --> come back! I'm {ACTIONING} {MYBODYPART}
+COMPLICATED --> say hello to {MYBODYPART}, {HERNAME}
+COMPLICATED --> I'm dying, {HERNAME}, so please {ACTION} me just a little while
+COMPLICATED --> do you have a map? Because I keep getting lost in your {PART}
+COMPLICATED --> what's your sign? Hope it's not {BLUNT}
+COMPLICATED --> what's your sign? Hope it's not {BLUNT}
+COMPLICATED --> is there a mirror in your {CREVICE}? Because I can definitely see {MYBODYPART} in there
+COMPLICATED --> that dress looks good on you, but it'd look even better on {MYBODYPART}
+COMPLICATED --> are your {BODYPARTS} tired? Because they've been running through my mind all day
+COMPLICATED --> if I could rewrite the alphabet, I would put {MYBODYPART} and your {BODYPARTS} together
+COMPLICATED --> come on, {HERNAME}, don't hate me for {ACTIONING} your {PART}
+COMPLICATED --> hop on {MYANYTHING}, {HERNAME}, cause we're going to planet '{PLANETX}'
+COMPLICATED --> I'll give you five seconds to {INQUIREZ} when we're going to {COITUS}
+COMPLICATED --> {EXCLAMATION}! Your {BODYPART} isn't so bad, but your {BODYPART} needs work
+COMPLICATED --> you've got {DESCRIP} written all over you
+COMPLICATED --> {MYBODYPART}, your {BODYPART} and a whole lotta {XACTIONING}
+COMPLICATED --> {MYBODYPART}, your {BODYPART} and a whole lotta {XACTIONING}
+COMPLICATED --> you're the {SUPERLATIVE} {OBJ} I've ever set {MYBODYPART} on
+COMPLICATED --> stand back {HERNAME}, I'm totally about to get {MYANYTHING} on
+COMPLICATED --> feel my {MALEBODYPART}, {HERNAME}
+COMPLICATED --> {HARDCODED}
+HARDCODED --> don't make me come over there
+QUESTION --> what is a classy place like this doing around a girl like you
+OBJ --> {NOUN}
+OBJ --> {NOUN}
+OBJ --> {NOUN}
+OBJ --> {NOUN}
+OBJ --> {NOUN}
+OBJ --> {ADJ} {NOUN}
+OBJ --> {ADJ} {NOUN}
+NOUN --> {DIRTYNOUN}
+NOUN --> {NICENOUN}
+PART --> {BODYPART}
+PART --> {BODYPARTS}
+MYBODYPART --> my buns
+MYBODYPART --> my forehead
+MYBODYPART --> my face
+MYBODYPART --> my lips
+MYBODYPART --> the back of my hand
+MYBODYPART --> my arm
+MYBODYPART --> my tongue
+MYBODYPART --> my yacht
+MYBODYPART --> my wallet
+MYBODYPART --> my pants
+MYBODYPART --> my hand
+MYBODYPART --> my nuts
+MYBODYPART --> my loins
+MYBODYPART --> my heart
+MYBODYPART --> my wart
+MYBODYPART --> my sock
+MYBODYPART --> my eyes
+MYBODYPART --> my scabs
+MYBODYPART --> my nipples
+MYBODYPART --> my throat
+MYBODYPART --> my tonsils
+MYBODYPART --> my anus
+MYBODYPART --> my poodle
+MYBODYPART --> my {MALEBODYPART}
+MALEBODYPART --> tae-kwon-do
+MALEBODYPART --> rod
+MALEBODYPART --> powermeat
+MALEBODYPART --> toothbrush
+MALEBODYPART --> beer
+MALEBODYPART --> jimmy
+MALEBODYPART --> hamster
+MALEBODYPART --> monster
+MALEBODYPART --> pleasure scepter
+MALEBODYPART --> ratchet
+MALEBODYPART --> little winky
+MALEBODYPART --> other girl
+MALEBODYPART --> inner child
+BODYPART --> neck
+BODYPART --> breast
+BODYPART --> soul
+BODYPART --> ass
+BODYPART --> heart
+BODYPART --> mind
+BODYPART --> beaver
+BODYPART --> thigh
+BODYPART --> face
+BODYPART --> tummy
+BODYPART --> slot
+BODYPART --> cleavage
+BODYPART --> crack
+BODYPART --> inner child
+BODYPART --> crack
+BODYPART --> navel
+BODYPART --> {ADJ} {BODYPART}
+BODYPARTS --> {ADJ} {BODYPARTS}
+BODYPARTS --> eyebrows
+BODYPARTS --> arms
+BODYPARTS --> breasts
+BODYPARTS --> thighs
+BODYPARTS --> armpits
+BODYPARTS --> cheeks
+BODYPARTS --> brains
+BODYPARTS --> toes
+BODYPARTS --> donuts
+BODYPARTS --> eyes
+BLUNT --> ... nevermind
+BLUNT --> lesbian
+BLUNT --> deadly
+BLUNT --> psychotic
+BLUNT --> ugly
+BLUNT --> stupid
+BLUNT --> cock-tease
+BLUNT --> crabs
+BLUNT --> {AIDS}
+DISEASE --> leprosy
+DISEASE --> the hots for {MYBODYPART}
+DISEASE --> a fever
+DISEASE --> a hernia
+DISEASE --> bad eyesight
+DISEASE --> the mumps
+DISEASE --> syphilis
+DISEASE --> {AIDS}
+AILMENT --> fresh meat
+AILMENT --> a {ADJ} shave
+AILMENT --> a {ADJ} bone
+AILMENT --> a {ADJ} friend
+AILMENT --> something to play with
+AILMENT --> {ADJ} lovin'
+AILMENT --> cosmetic surgery
+AILMENT --> sword-hate
+AILMENT --> {DISEASE}
+NICENOUN --> angel
+NICENOUN --> fairy
+NICENOUN --> supermodel
+NICENOUN --> sugar plum
+NICENOUN --> cherry
+NICENOUN --> teenager
+NICENOUN --> little girl
+NICENOUN --> beauty queen
+NICENOUN --> princess
+NICENOUN --> tosser
+NICENOUN --> lover
+NICENOUN --> minister
+DIRTYNOUN --> minister
+DIRTYNOUN --> immigrant
+DIRTYNOUN --> spunk stain
+DIRTYNOUN --> doofus
+DIRTYNOUN --> cock-tease
+DIRTYNOUN --> jail-bait
+DIRTYNOUN --> whore
+DIRTYNOUN --> slut
+DIRTYNOUN --> man-eater
+DIRTYNOUN --> transvestite
+DIRTYNOUN --> psycho bitch
+DIRTYNOUN --> monkey
+DIRTYNOUN --> pervert
+DIRTYNOUN --> low-life
+DIRTYNOUN --> dog
+DIRTYNOUN --> sex worker
+DIRTYNOUN --> twat
+DIRTYNOUN --> midget
+ACTIONING --> jerking
+ACTIONING --> juggling
+ACTIONING --> squeezing
+ACTIONING --> screwing
+ACTIONING --> holding
+ACTIONING --> rubbing
+ACTIONING --> exploring
+ACTIONING --> arguing
+ACTIONING --> cuddling
+ACTIONING --> spanking
+ACTIONING --> slinging
+ACTIONING --> humping
+ACTIONING --> sucking
+ACTIONING --> poking
+ACTIONING --> maneuvering
+ACTIONING --> sucking
+ACTIONING --> massaging
+ACTIONING --> consulting
+ACTIONING --> {ADVERB} {ACTIONING}
+XACTIONING --> {ADJ} {XACTIONING}
+XACTIONING --> {ADJ} {XACTIONING}
+XACTIONING --> jerking
+XACTIONING --> squeezing
+XACTIONING --> screwing
+XACTIONING --> holding
+XACTIONING --> rubbing
+XACTIONING --> exploring
+XACTIONING --> arguing
+XACTIONING --> cuddling
+XACTIONING --> spanking
+XACTIONING --> humping
+XACTIONING --> sucking
+XACTIONING --> poking
+XACTIONING --> maneuvering
+XACTIONING --> sucking
+XACTIONING --> massaging
+XACTIONING --> consulting
+ACTIONER --> boner
+ACTIONER --> humper
+ACTIONER --> sucker
+ACTIONER --> pleaser
+ACTIONER --> grabber
+ACTIONER --> lover
+ACTION --> caress
+ACTION --> hump
+ACTION --> massage
+ACTION --> squeeze
+ACTION --> pleasure
+ACTION --> hold
+ACTION --> penetrate
+ACTION --> screw
+ACTION --> do
+ACTION --> {ADVERB} {ACTION}
+COITUS --> {ACTION} each other
+COITUS --> {ACTION}
+COITUS --> {ACTION} ourselves
+COITUS --> clean out your {CREVICE}
+COITUS --> start {ACTIONING}
+COITUS --> give my {FURLIKE} dog {AILMENT}
+COITUS --> interrogate {MYBODYPART}
+PARTNERACTION --> dance with a
+PARTNERACTION --> make {ADJ} babies with a
+PARTNERACTION --> get {ACTIONED} by a
+PARTNERACTION --> {ACTION} the {PART} of a
+PARTNERACTION --> trade beauty secrets with a
+PARTNERACTION --> drool over a
+PARTNERACTION --> {ACTION} a
+ACTIONED --> kissed
+ACTIONED --> humped
+ACTIONED --> licked
+ACTIONED --> squeezed
+ACTIONED --> spread
+ACTIONED --> held
+ACTIONED --> pleased
+ACTIONED --> wooed
+ACTIONED --> found
+ACTIONED --> spanked
+CREVICE --> hole
+CREVICE --> hand
+CREVICE --> butt
+CREVICE --> ear
+CREVICE --> throat
+CREVICE --> crack
+EXCLAMATION --> ignore the rumors
+EXCLAMATION --> I can't believe it
+EXCLAMATION --> ring the alarm
+EXCLAMATION --> hey
+EXCLAMATION --> yo
+EXCLAMATION --> wassup
+EXCLAMATION --> fuckin' what up
+EXCLAMATION --> holy shit
+EXCLAMATION --> let's not split hairs here
+EXCLAMATION --> let's not beat around the bush
+EXCLAMATION --> damn
+HERNAME --> darling
+HERNAME --> hot stuff
+HERNAME --> honeybuns
+HERNAME --> you slut
+HERNAME --> you bitch
+HERNAME --> baby
+HERNAME --> gorgeous
+HERNAME --> whatever-your-name-is
+HERNAME --> sweetheart
+COUNTRY --> Texas
+COUNTRY --> Iran
+COUNTRY --> Australia
+COUNTRY --> Arkansas
+COUNTRY --> the Ukraine
+MEANADJ --> {ACTIONED}
+MEANADJ --> much like you
+MEANADJ --> {FURLIKE} on the {BODYLOCATION}
+MEANADJ --> loose
+MEANADJ --> so fucking {FURLIKE} on the {BODYLOCATION}
+BODYLOCATION --> backside
+BODYLOCATION --> undercheek
+BODYLOCATION --> inner wall
+FURLIKE --> hairy
+FURLIKE --> furry
+FURLIKE --> bristly
+FURLIKE --> pimply
+ADJ --> unholy
+ADJ --> beautiful
+ADJ --> hot
+ADJ --> sexy
+ADJ --> lovely
+ADJ --> single
+ADJ --> radiant
+ADJ --> strange
+ADJ --> illegal
+ADJ --> fucked up
+ADJ --> sticky
+ADJ --> perverted
+ADJ --> stimulating
+ADJ --> eccentric
+ADJ --> crazy
+ADJ --> stupid
+ADJ --> retarded
+ADJ --> horny
+ADJ --> enormous
+ADJ --> hairy
+ADJ --> wet
+ADJ --> shaved
+ADJ --> bad
+ADVERB --> sexually
+ADVERB --> verbally
+ADVERB --> mentally
+ADVERB --> systematically
+ADVERB --> quickly
+ADVERB --> lovingly
+ADVERB --> painfully
+ADVERB --> shamelessly
+ADVERB --> mindlessly
+ADVERB --> vigorously
+ADVERB --> eagerly
+INTRAN --> hurt
+INTRAN --> bleed
+INTRAN --> come
+INTRAN --> swoon
+INTRAN --> lonely
+INTRAN --> spin
+INTRAN --> explode
+INTRAN --> ache
+INTRAN --> sweat
+LOCATION --> place
+LOCATION --> joint
+LOCATION --> jail
+LOCATION --> hotel
+LOCATION --> bar
+LOCATION --> jungle palace
+LOCATION --> harem
+LOCATION --> pleasure dome
+LOCATION --> hospital
+LOCATION --> shit hole
+LOCATION --> mosque
+XFEELING --> burn
+XFEELING --> sting
+XFEELING --> tingle
+XFEELING --> swell
+XFEELING --> rock
+XFEELING --> want to {ACTION} myself
+FEELING --> burn
+FEELING --> sting
+FEELING --> tingle
+FEELING --> swell
+FEELING --> rock
+FEELING --> make you {FURLIKE}
+FEELING --> feel like my {BODYLOCATION}
+FEELING --> feel {ADJ}
+SUPERLATIVE --> {SUPERLATIVE}, {SUPERLATIVE}
+SUPERLATIVE --> most retarded
+SUPERLATIVE --> wettest
+SUPERLATIVE --> dirtiest
+SUPERLATIVE --> sickest
+SUPERLATIVE --> best
+SUPERLATIVE --> loveliest
+SUPERLATIVE --> most vivid
+SUPERLATIVE --> darkest
+SUPERLATIVE --> tenderest
+DESCRIP --> {OBJ}
+DESCRIP --> {ACTION} me
+DESCRIP --> {ACTIONER}
+DESCRIP --> just {ACTIONED}
+DESCRIP --> {FURLIKE}
+DESCRIP --> {AILMENT}
+DESCRIP --> {MALADY}
+PLANETX --> {DISEASE}
+PLANETX --> {ACTIONER}
+PLANETX --> {ACTION}
+PLANETX --> {BODYLOCATION}
+PLANETX --> {FURLIKE}
+MYANYTHING --> {MYBODYPART}
+MYANYTHING --> my scooter
+MYANYTHING --> my horsey
+MYANYTHING --> my jiggy
+MALADY --> infected
+MALADY --> swollen
+MALADY --> healthy
+MALADY --> malignant
+MALADY --> wrinkled
+MALADY --> firm
+MALADY --> tasty
+MALADY --> smelly
+MALADY --> putrid
+MALADY --> arousing
+MALADY --> broken
+MALADY --> hot
+MALADY --> sexy
+POWEROF --> {DISEASE}
+POWEROF --> a {NOUN} like you
+POWEROF --> {MYBODYPART}
+INQUIREZ --> ask me
+INQUIREZ --> tell me
+INQUIREZ --> guess
+INQUIREZ --> decide
+INQUIREZ --> think about
+INQUIREZ --> imagine
+
