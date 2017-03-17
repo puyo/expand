@@ -20,41 +20,17 @@
 #   * Made to_s versions of Rule and RuleSet look nicer.
 #   * Put classes in a module.
 
-$DEBUG = 0  # Higher number -> more info
-
-# --------------------------------------------------------------------
-
-def usage
-  puts <<EOF
-  Usage:
-    #$0 [-n] [file ...]
-EOF
-  exit!
-end
-
-def debug(thing, level=1)
-  case thing
-  when String
-    str = thing
-  else
-    str = thing.inspect
-  end
-  $stderr.puts "DEBUG: " + str if level <= $DEBUG
-end
-
 # --------------------------------------------------------------------
 
 module Expander
-
   # A set of formal language rules.
   class RuleSet
-
     # Used to identify keywords in sentences for expansion.
     KEYWORD_RE = /\{(\w+)\}/
 
     # Make an empty rule set or read definitions from the
     # specified file.
-    def initialize(file=nil)
+    def initialize(file = nil)
       @rules = {}
       parse(file) if file
     end
@@ -64,12 +40,11 @@ module Expander
     def evaluate(sentence)
       result = sentence.dup
       result = apply(result) until complete(result)
-      result.capitalize
+      result[0, 1].capitalize + result[1, result.size]
     end
 
     # Add a replacement for the given keyword.
     def add_replacement(keyword, replacement)
-      debug "add_rule('#{keyword}', '#{replacement}')", 2
       @rules[keyword] ||= Rule.new(keyword)
       @rules[keyword] << replacement
     end
@@ -78,7 +53,7 @@ module Expander
     def parse(file)
       file.each_line do |line|
         keyword, replacement = line.strip.split(/\s*-->\s*/)
-        if keyword and replacement
+        if keyword && replacement
           add_replacement(keyword, replacement)
         end
       end
@@ -86,7 +61,7 @@ module Expander
 
     # Print internal representation.
     def to_s
-      return @rules.values.join("\n")
+      @rules.values.join("\n")
     end
 
     private # ---------------------------
@@ -94,25 +69,22 @@ module Expander
     # Replace all occurances of keywords in string using appropriate
     # rules.
     def apply(string)
-      debug "apply('#{string}')", 1
-
       # Replace {...} using appropriate rule.  Leave any unknown
       # keywords as they are.
-      string.gsub(KEYWORD_RE) { |match|
-        keyword = $1
+      string.gsub(KEYWORD_RE).each do
+        keyword = Regexp.last_match[1]
         if @rules[keyword]
           @rules[keyword].random_replacement
         else
-          '[' + keyword + ']'
+          '[ ' + keyword + ' ]'
         end
-      }
+      end
     end
 
     # True iff a string has any more keywords.
     def complete(sentence)
       sentence !~ KEYWORD_RE
     end
-
   end # class RuleSet
 
   # --------------------------------------------------------------------
@@ -124,7 +96,6 @@ module Expander
   # ...
   # keyword --> replacement n
   class Rule
-
     def initialize(keyword)
       @keyword = keyword
       @replacements = []
@@ -136,16 +107,14 @@ module Expander
     end
 
     def random_replacement
-      @replacements[rand(@replacements.size)] or
-        raise "Rule has no replacement: " + @keyword
+      @replacements[rand(@replacements.size)] ||
+        raise("Rule has no replacement: #{@keyword}")
     end
 
     def to_s
-      result = "#@keyword --> "
-      result += @replacements.map { |r|
-        r.to_s
-      }.join("\n#{" "*result.size}")
-      return result
+      result = "#{@keyword} --> "
+      result << @replacements.map(&:to_s).join("\n#{' ' * result.size}")
+      result
     end
   end # class Rule
 end
@@ -155,7 +124,7 @@ end
 
 # Read arguments.
 iterations = 1
-if ARGV[0] =~ /^-\d+$/
+if ARGV[0].match(/^-\d+$/)
   # Beware possible octal/hex conversion!
   iterations = -ARGV.shift.to_i
   iterations = 1 if iterations < 1
